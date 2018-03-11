@@ -14,13 +14,13 @@
                         "name": "email",
                         "type": "email",
                         "label": "Pandora Email",
-                        "value": "craig.eustice@gmail.com"
+                        "value": ""
                     },
                     {
                         "name": "password",
                         "type": "password",
                         "label": "Password",
-                        "value": "falcon24x"
+                        "value": ""
                     }
                 ]
             }
