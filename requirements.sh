@@ -8,6 +8,6 @@ found_exe() {
 # user named 'mycroft'.  So avoid apt-get for installing packages.
 
 # using pkcon instead of apt-get will avoid permission issues on Mark 1. For Ubuntu 17.10, pkcon will not find pianobar
-# Use sudo apt-get for Ubuntu installations
+# Use sudo apt-get for Ubuntu installations or keep next line commented out and manually install via terminal before installing skill
 # sudo apt-get install pianobar
 
