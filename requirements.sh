@@ -9,5 +9,5 @@ found_exe() {
 
 # using pkcon instead of apt-get will avoid permission issues on Mark 1. For Ubuntu 17.10, pkcon will not find pianobar
 # Use sudo apt-get for Ubuntu installations
-sudo apt-get install pianobar
+# sudo apt-get install pianobar
 
