@@ -28,21 +28,15 @@ Mycroft AI
 
 
 # Installation
-
-This should self-install as a well-behaved Mycroft Skill, but here are some
-under-the-hood details.
-
-### Dependency:  pianobar package
-
-This accesses Pandora via the excellent [pianobar](https://6xq.net/pianobar/)
-client for Pandora.  The skill installs the debian package:
-
+1.Prerequisite / Dependency:  pianobar package
 ```
 apt-get update
 apt-get -y install pianobar
 ```
+2.Install skill via home.mycroft.ai > custom skill
 
-On Picroft and Mark 1, the skill will automatically set the appropriate
+Note: On Picroft and Mark 1, you may use "ethanaward/pianobar-skill" instead. This will install the pianobar package dependency.
+the skill will automatically set the appropriate
 drivers. For desktop there is typically no need for driver changes.  If you
 want to double check, manually do these steps:
 
@@ -55,6 +49,9 @@ echo dev=0 >> ~/.libao
 Debug mode will allow pianobar to write to the mycroft-cli. There you can see a
 little bit more detail on what pianobar is doing under the hood.  Enable by
 saying "Pandora debug on"
+
+If there are errors accessing or running pianobar , ensure .config/pianobar has appropriate privileges.
+
 
 ## FAQ
 **Why isn't the song playing?**
